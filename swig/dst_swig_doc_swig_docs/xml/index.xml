@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.7.6.1">
+  <compound refid="classstd_1_1allocator" kind="class"><name>std::allocator</name>
+    <member refid="classstd_1_1allocator_1a55f88dab1194d6b8a34e46017c4dfd79" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1auto__ptr" kind="class"><name>std::auto_ptr</name>
+    <member refid="classstd_1_1auto__ptr_1a076c936287003dc557981f9ccec1d841" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1auto__ptr_1aa16b96ffd607af4bb6ba4738d77124f8" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1bad__alloc" kind="class"><name>std::bad_alloc</name>
+  </compound>
+  <compound refid="classstd_1_1bad__cast" kind="class"><name>std::bad_cast</name>
+  </compound>
+  <compound refid="classstd_1_1bad__exception" kind="class"><name>std::bad_exception</name>
+  </compound>
+  <compound refid="classstd_1_1bad__typeid" kind="class"><name>std::bad_typeid</name>
+  </compound>
+  <compound refid="classstd_1_1basic__fstream" kind="class"><name>std::basic_fstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ifstream" kind="class"><name>std::basic_ifstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ios" kind="class"><name>std::basic_ios</name>
+  </compound>
+  <compound refid="classstd_1_1basic__iostream" kind="class"><name>std::basic_iostream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__istream" kind="class"><name>std::basic_istream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__istringstream" kind="class"><name>std::basic_istringstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ofstream" kind="class"><name>std::basic_ofstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ostream" kind="class"><name>std::basic_ostream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__ostringstream" kind="class"><name>std::basic_ostringstream</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string" kind="class"><name>std::basic_string</name>
+  </compound>
+  <compound refid="classstd_1_1basic__stringstream" kind="class"><name>std::basic_stringstream</name>
+  </compound>
+  <compound refid="classstd_1_1bitset" kind="class"><name>std::bitset</name>
+  </compound>
+  <compound refid="classstd_1_1complex" kind="class"><name>std::complex</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1const__iterator" kind="class"><name>std::map::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1const__iterator" kind="class"><name>std::multimap::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1const__iterator" kind="class"><name>std::basic_string::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1const__iterator" kind="class"><name>std::set::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1const__iterator" kind="class"><name>std::multiset::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1const__iterator" kind="class"><name>std::string::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1const__iterator" kind="class"><name>std::vector::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1const__iterator" kind="class"><name>std::wstring::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1const__iterator" kind="class"><name>std::deque::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1const__iterator" kind="class"><name>std::list::const_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1const__reverse__iterator" kind="class"><name>std::map::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1const__reverse__iterator" kind="class"><name>std::multimap::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1const__reverse__iterator" kind="class"><name>std::set::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1const__reverse__iterator" kind="class"><name>std::basic_string::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1const__reverse__iterator" kind="class"><name>std::multiset::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1const__reverse__iterator" kind="class"><name>std::vector::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1const__reverse__iterator" kind="class"><name>std::string::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1const__reverse__iterator" kind="class"><name>std::wstring::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque" kind="class"><name>std::deque</name>
+    <member refid="classstd_1_1deque_1a090b92581de438d2e14bedc190f0b0f9" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1domain__error" kind="class"><name>std::domain_error</name>
+  </compound>
+  <compound refid="classdst__fcch" kind="class"><name>dst_fcch</name>
+    <member refid="classdst__fcch_1a2e6fe1362743f2424865d02b99ce9a32" kind="variable"><name>d_rho</name></member>
+    <member refid="classdst__fcch_1ad0113517cd5621da98523701363bbeb4" kind="variable"><name>d_G</name></member>
+    <member refid="classdst__fcch_1a137ba3c2019554bb18594ee6e88bbf09" kind="variable"><name>d_D</name></member>
+    <member refid="classdst__fcch_1ad1bd4089f655d9ab36169a6edc6a7079" kind="variable"><name>d_taps</name></member>
+    <member refid="classdst__fcch_1a36f8479a3f7548b00c8c121657dd2417" kind="friend"><name>dst_make_fcch</name></member>
+    <member refid="classdst__fcch_1ab0ffad1a509f73d6442b84ae05f7e18e" kind="function"><name>dst_fcch</name></member>
+    <member refid="classdst__fcch_1a0439df25d66751bef445ac53fccfe66f" kind="function"><name>rho</name></member>
+    <member refid="classdst__fcch_1aab16a2801bc0dc295601efe49221aa4d" kind="function"><name>set_rho</name></member>
+    <member refid="classdst__fcch_1a2106e6583a0926cb56eafb004849dddc" kind="function"><name>G</name></member>
+    <member refid="classdst__fcch_1a8347039a87b632ae62bb9c0b4d99bca3" kind="function"><name>set_G</name></member>
+    <member refid="classdst__fcch_1ad273e0ef20037da1b3297fefc5265031" kind="function"><name>D</name></member>
+    <member refid="classdst__fcch_1a3e53d2a86701c3c9f02d17fd0dd3d269" kind="function"><name>set_D</name></member>
+    <member refid="classdst__fcch_1a842499488c3da30e38fc738da0144616" kind="function"><name>taps</name></member>
+    <member refid="classdst__fcch_1abcafdc70bce94e9c9a3cccdec75954d3" kind="function"><name>set_taps</name></member>
+    <member refid="classdst__fcch_1a7d1158ce1a44ac68bf230f296f3958e6" kind="function"><name>~dst_fcch</name></member>
+    <member refid="classdst__fcch_1a7e2c1d96edc1f180520d36ef8894a35b" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classdst__fcchsync" kind="class"><name>dst_fcchsync</name>
+    <member refid="classdst__fcchsync_1af566cb515ba6158675ad024116fb8482" kind="variable"><name>d_rho</name></member>
+    <member refid="classdst__fcchsync_1a3ccd6a5057e7e2d2ff3eceb196389343" kind="variable"><name>d_G</name></member>
+    <member refid="classdst__fcchsync_1afff0e443dffdaf74f99e09d55d140b4c" kind="variable"><name>d_D</name></member>
+    <member refid="classdst__fcchsync_1a5b4da95d79767d461ac8274f87ebe93b" kind="variable"><name>d_taps</name></member>
+    <member refid="classdst__fcchsync_1ab2277ba4c86ca423785c941f4eaaa535" kind="variable"><name>d_osr</name></member>
+    <member refid="classdst__fcchsync_1adeedf3cb652c03033fc8bb71d68ce90b" kind="variable"><name>d_fsamp</name></member>
+    <member refid="classdst__fcchsync_1a018cb8b73b195dc4cab834995eb2ad2d" kind="variable"><name>freq</name></member>
+    <member refid="classdst__fcchsync_1a0c0e180231d69d5e8f4c6ea63a06be6c" kind="variable"><name>taps_buffer</name></member>
+    <member refid="classdst__fcchsync_1a54d7983b359df994bdcf571eda34717d" kind="variable"><name>eavg_buffer</name></member>
+    <member refid="classdst__fcchsync_1a3fc8d217f161b2e71eb9277c2af576df" kind="variable"><name>mea_list</name></member>
+    <member refid="classdst__fcchsync_1a8299825e36209fcecaaabf420159f1d0" kind="variable"><name>y</name></member>
+    <member refid="classdst__fcchsync_1ae66adb38ad7520e516324c41d2440eeb" kind="variable"><name>e</name></member>
+    <member refid="classdst__fcchsync_1aa11633a1d8fb1ab922fd5127791c259a" kind="variable"><name>detectedago</name></member>
+    <member refid="classdst__fcchsync_1a6feb7b6a3dec0c6457f941eb25276333" kind="variable"><name>detectedcounter</name></member>
+    <member refid="classdst__fcchsync_1ae9c9487f4cf037cb34a28d0e8a88af60" kind="variable"><name>firstrun</name></member>
+    <member refid="classdst__fcchsync_1a0cfa662674cecb59e432e2345eae7d2a" kind="friend"><name>dst_make_fcchsync</name></member>
+    <member refid="classdst__fcchsync_1a192cf4f8722f2c02fe56d9060cb713da" kind="function"><name>dst_fcchsync</name></member>
+    <member refid="classdst__fcchsync_1a1eab716ef25222504bab19da7cfeec8a" kind="function"><name>rho</name></member>
+    <member refid="classdst__fcchsync_1a103303f82ed9920f2a60ad18f81d5783" kind="function"><name>set_osr</name></member>
+    <member refid="classdst__fcchsync_1a2fed0fa1073bb8e2fb9e576feab0cb16" kind="function"><name>set_rho</name></member>
+    <member refid="classdst__fcchsync_1a23d315989c21a9b06bd50e4a06f06a4e" kind="function"><name>G</name></member>
+    <member refid="classdst__fcchsync_1ae9e16e7e1812de213b582a07b0b1e8f7" kind="function"><name>set_G</name></member>
+    <member refid="classdst__fcchsync_1abe1e66c5e6e078a0302f4d46b064b77a" kind="function"><name>D</name></member>
+    <member refid="classdst__fcchsync_1a326567a935aacb7d01b85b407d71e679" kind="function"><name>fsamp</name></member>
+    <member refid="classdst__fcchsync_1a140d2c5385eb326b5ffbebf947fe7ee1" kind="function"><name>set_D</name></member>
+    <member refid="classdst__fcchsync_1a7b00b3fe24c008a2aa3f899cbd5f94a2" kind="function"><name>taps</name></member>
+    <member refid="classdst__fcchsync_1a84ac54183df2737fea0a55e461374377" kind="function"><name>set_taps</name></member>
+    <member refid="classdst__fcchsync_1a937696b88398a2b57e0acdaf2f9c5fc8" kind="function"><name>calculate_fcch_firale</name></member>
+    <member refid="classdst__fcchsync_1a8f7107c056cba907502d14528f0fee80" kind="function"><name>~dst_fcchsync</name></member>
+    <member refid="classdst__fcchsync_1a6eeb1fe4ed97fe4f8dce1eb96a7538da" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classdst__sch" kind="class"><name>dst_sch</name>
+    <member refid="classdst__sch_1a29c0f0bdae165d6e95675280eb41730e" kind="variable"><name>d_osr</name></member>
+    <member refid="classdst__sch_1ae10d09ca03053f94c753e452ff5a8526" kind="friend"><name>dst_make_sch</name></member>
+    <member refid="classdst__sch_1a19c9bf6c88128f67db4520110a09b588" kind="function"><name>dst_sch</name></member>
+    <member refid="classdst__sch_1ada6ed737e122df414988b05dbdb5bffb" kind="function"><name>~dst_sch</name></member>
+    <member refid="classdst__sch_1a0a0ef3381159851ce04f34445624e214" kind="function"><name>set_osr</name></member>
+    <member refid="classdst__sch_1aa6f325085c62f51d51f9ca374a0ff1c1" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classstd_1_1exception" kind="class"><name>std::exception</name>
+  </compound>
+  <compound refid="classstd_1_1ios__base_1_1failure" kind="class"><name>std::ios_base::failure</name>
+  </compound>
+  <compound refid="classstd_1_1fstream" kind="class"><name>std::fstream</name>
+  </compound>
+  <compound refid="classstd_1_1ifstream" kind="class"><name>std::ifstream</name>
+  </compound>
+  <compound refid="classstd_1_1invalid__argument" kind="class"><name>std::invalid_argument</name>
+  </compound>
+  <compound refid="classstd_1_1ios" kind="class"><name>std::ios</name>
+  </compound>
+  <compound refid="classstd_1_1ios__base" kind="class"><name>std::ios_base</name>
+  </compound>
+  <compound refid="classstd_1_1istream" kind="class"><name>std::istream</name>
+  </compound>
+  <compound refid="classstd_1_1istringstream" kind="class"><name>std::istringstream</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1iterator" kind="class"><name>std::deque::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1iterator" kind="class"><name>std::multimap::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1iterator" kind="class"><name>std::set::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1iterator" kind="class"><name>std::basic_string::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1iterator" kind="class"><name>std::multiset::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1iterator" kind="class"><name>std::vector::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1iterator" kind="class"><name>std::string::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1iterator" kind="class"><name>std::wstring::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1iterator" kind="class"><name>std::list::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
+  </compound>
+  <compound refid="classstd_1_1length__error" kind="class"><name>std::length_error</name>
+  </compound>
+  <compound refid="classstd_1_1list" kind="class"><name>std::list</name>
+    <member refid="classstd_1_1list_1a682e5c7c91eb377d0cb4f019b2b81a5d" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1logic__error" kind="class"><name>std::logic_error</name>
+  </compound>
+  <compound refid="classstd_1_1map" kind="class"><name>std::map</name>
+    <member refid="classstd_1_1map_1a8dc2b3ed44acf51fb2bd3eb30b237269" kind="variable"><name>keys</name></member>
+    <member refid="classstd_1_1map_1ac69fe575e214b796b8d9457b0c22469a" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1multimap" kind="class"><name>std::multimap</name>
+    <member refid="classstd_1_1multimap_1a4e7d19eda5925ebfcf1e3dcba085cce5" kind="variable"><name>keys</name></member>
+    <member refid="classstd_1_1multimap_1abb7a4781b562bae0a54baeb5726ac28d" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1multiset" kind="class"><name>std::multiset</name>
+    <member refid="classstd_1_1multiset_1a93eb79091066c87f6dfb9d07c6c7cbcd" kind="variable"><name>keys</name></member>
+  </compound>
+  <compound refid="classstd_1_1ofstream" kind="class"><name>std::ofstream</name>
+  </compound>
+  <compound refid="classstd_1_1ostream" kind="class"><name>std::ostream</name>
+  </compound>
+  <compound refid="classstd_1_1ostringstream" kind="class"><name>std::ostringstream</name>
+  </compound>
+  <compound refid="classstd_1_1out__of__range" kind="class"><name>std::out_of_range</name>
+  </compound>
+  <compound refid="classstd_1_1overflow__error" kind="class"><name>std::overflow_error</name>
+  </compound>
+  <compound refid="classstd_1_1priority__queue" kind="class"><name>std::priority_queue</name>
+    <member refid="classstd_1_1priority__queue_1a4df2ae826d2b2caf4a6755adbd34a836" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1queue" kind="class"><name>std::queue</name>
+    <member refid="classstd_1_1queue_1aebacc4dcb935c5e54144e881eb41e356" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1range__error" kind="class"><name>std::range_error</name>
+  </compound>
+  <compound refid="classstd_1_1multimap_1_1reverse__iterator" kind="class"><name>std::multimap::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1multiset_1_1reverse__iterator" kind="class"><name>std::multiset::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1reverse__iterator" kind="class"><name>std::basic_string::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1reverse__iterator" kind="class"><name>std::set::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1deque_1_1reverse__iterator" kind="class"><name>std::deque::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1wstring_1_1reverse__iterator" kind="class"><name>std::wstring::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1runtime__error" kind="class"><name>std::runtime_error</name>
+  </compound>
+  <compound refid="classstd_1_1set" kind="class"><name>std::set</name>
+    <member refid="classstd_1_1set_1a7f92ca6d6e5216b9c4be631bd87f1df4" kind="variable"><name>keys</name></member>
+  </compound>
+  <compound refid="classstd_1_1smart__ptr" kind="class"><name>std::smart_ptr</name>
+    <member refid="classstd_1_1smart__ptr_1a28b08019309e26ad374ef88cd2641ea3" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1smart__ptr_1a34adc9f82172f037139e4b916c275e90" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1stack" kind="class"><name>std::stack</name>
+    <member refid="classstd_1_1stack_1a020dde37186e898d2aacda2c136aef0f" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1string" kind="class"><name>std::string</name>
+  </compound>
+  <compound refid="classstd_1_1stringstream" kind="class"><name>std::stringstream</name>
+  </compound>
+  <compound refid="classstd_1_1underflow__error" kind="class"><name>std::underflow_error</name>
+  </compound>
+  <compound refid="classstd_1_1unique__ptr" kind="class"><name>std::unique_ptr</name>
+    <member refid="classstd_1_1unique__ptr_1adae741234450c126c1260d389e1720b9" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1unique__ptr_1a94e5fed358ff2ef440499ac836dd68f2" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1valarray" kind="class"><name>std::valarray</name>
+    <member refid="classstd_1_1valarray_1adce3a23af4e9d36342f49f58300d8568" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1vector" kind="class"><name>std::vector</name>
+    <member refid="classstd_1_1vector_1a2396209900e8f592db1f0b2467f7d899" kind="variable"><name>elements</name></member>
+  </compound>
+  <compound refid="classstd_1_1weak__ptr" kind="class"><name>std::weak_ptr</name>
+    <member refid="classstd_1_1weak__ptr_1a2346c22e2352ad88a4973f2c8aab91a5" kind="variable"><name>ptr</name></member>
+    <member refid="classstd_1_1weak__ptr_1a3385d327d4804d675b2a052265651a7b" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classstd_1_1wfstream" kind="class"><name>std::wfstream</name>
+  </compound>
+  <compound refid="classstd_1_1wifstream" kind="class"><name>std::wifstream</name>
+  </compound>
+  <compound refid="classstd_1_1wios" kind="class"><name>std::wios</name>
+  </compound>
+  <compound refid="classstd_1_1wistream" kind="class"><name>std::wistream</name>
+  </compound>
+  <compound refid="classstd_1_1wistringstream" kind="class"><name>std::wistringstream</name>
+  </compound>
+  <compound refid="classstd_1_1wofstream" kind="class"><name>std::wofstream</name>
+  </compound>
+  <compound refid="classstd_1_1wostream" kind="class"><name>std::wostream</name>
+  </compound>
+  <compound refid="classstd_1_1wostringstream" kind="class"><name>std::wostringstream</name>
+  </compound>
+  <compound refid="classstd_1_1wstring" kind="class"><name>std::wstring</name>
+  </compound>
+  <compound refid="classstd_1_1wstringstream" kind="class"><name>std::wstringstream</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="dst__api_8h" kind="file"><name>dst_api.h</name>
+    <member refid="dst__api_8h_1aabb694f0ce94b370b784cfc41a7dd113" kind="define"><name>DST_API</name></member>
+  </compound>
+  <compound refid="dst__fcch_8h" kind="file"><name>dst_fcch.h</name>
+    <member refid="dst__fcch_8h_1aa3d26e0460f511b699368c2f513990b3" kind="typedef"><name>dst_fcch_sptr</name></member>
+    <member refid="dst__fcch_8h_1af15a4b6be8790bf4b0f8828cc76e57e6" kind="function"><name>dst_make_fcch</name></member>
+  </compound>
+  <compound refid="dst__fcchsync_8h" kind="file"><name>dst_fcchsync.h</name>
+    <member refid="dst__fcchsync_8h_1a44e37d4808aedd447ab540d9ac7dbc64" kind="define"><name>fcch_len</name></member>
+    <member refid="dst__fcchsync_8h_1a4d8a95b954bf167bf0dace6f66b8e446" kind="typedef"><name>dst_fcchsync_sptr</name></member>
+    <member refid="dst__fcchsync_8h_1a1cb06e2b7f4c0f02e10949c6346dd735" kind="function"><name>dst_make_fcchsync</name></member>
+  </compound>
+  <compound refid="dst__sch_8h" kind="file"><name>dst_sch.h</name>
+    <member refid="dst__sch_8h_1a85dc59221cac8624d9ead8843976788a" kind="typedef"><name>dst_sch_sptr</name></member>
+    <member refid="dst__sch_8h_1adf0f4961d40002b30badc6def52b45ff" kind="function"><name>dst_make_sch</name></member>
+  </compound>
+  <compound refid="dir_6fb3c936c8e64c91ee6df6686f15ff99" kind="dir"><name>/home/denis/Thesis/gr-dst/include/</name>
+  </compound>
+</doxygenindex>

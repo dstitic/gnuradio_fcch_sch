@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/qa_dst_sch.dir/qa_dst_sch.cc.o  -o qa_dst_sch -rdynamic -L/usr/local/lib libgnuradio-dst.so -lboost_unit_test_framework-mt /usr/local/lib/libgruel.so /usr/local/lib/libgnuradio-core.so -Wl,-rpath,/home/denis/Thesis/gr-dst/lib:/usr/local/lib 

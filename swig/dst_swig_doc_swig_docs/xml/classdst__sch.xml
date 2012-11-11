@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classdst__sch" kind="class" prot="public">
+    <compoundname>dst_sch</compoundname>
+    <includes refid="dst__sch_8h" local="no">dst_sch.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdst__sch_1a29c0f0bdae165d6e95675280eb41730e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_sch::d_osr</definition>
+        <argsstring></argsstring>
+        <name>d_osr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="39" bodyfile="/home/denis/Thesis/gr-dst/include/dst_sch.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdst__sch_1ae10d09ca03053f94c753e452ff5a8526" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="dst__sch_8h_1a85dc59221cac8624d9ead8843976788a" kindref="member">dst_sch_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT dst_sch_sptr dst_make_sch</definition>
+        <argsstring>(int osr)</argsstring>
+        <name>dst_make_sch</name>
+        <param>
+          <type>int</type>
+          <declname>osr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdst__sch_1a19c9bf6c88128f67db4520110a09b588" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dst_sch::dst_sch</definition>
+        <argsstring>(int osr)</argsstring>
+        <name>dst_sch</name>
+        <param>
+          <type>int</type>
+          <declname>osr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdst__sch_1ada6ed737e122df414988b05dbdb5bffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dst_sch::~dst_sch</definition>
+        <argsstring>()</argsstring>
+        <name>~dst_sch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__sch_1a0a0ef3381159851ce04f34445624e214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_sch::set_osr</definition>
+        <argsstring>(int osr)</argsstring>
+        <name>set_osr</name>
+        <param>
+          <type>int</type>
+          <declname>osr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="46" bodyfile="/home/denis/Thesis/gr-dst/include/dst_sch.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__sch_1aa6f325085c62f51d51f9ca374a0ff1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dst_sch::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/denis/Thesis/gr-dst/include/dst_sch.h" line="37" bodyfile="/home/denis/Thesis/gr-dst/include/dst_sch.h" bodystart="36" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classdst__sch_1a29c0f0bdae165d6e95675280eb41730e" prot="private" virt="non-virtual"><scope>dst_sch</scope><name>d_osr</name></member>
+      <member refid="classdst__sch_1ae10d09ca03053f94c753e452ff5a8526" prot="private" virt="non-virtual"><scope>dst_sch</scope><name>dst_make_sch</name></member>
+      <member refid="classdst__sch_1a19c9bf6c88128f67db4520110a09b588" prot="private" virt="non-virtual"><scope>dst_sch</scope><name>dst_sch</name></member>
+      <member refid="classdst__sch_1a0a0ef3381159851ce04f34445624e214" prot="public" virt="non-virtual"><scope>dst_sch</scope><name>set_osr</name></member>
+      <member refid="classdst__sch_1aa6f325085c62f51d51f9ca374a0ff1c1" prot="public" virt="non-virtual"><scope>dst_sch</scope><name>work</name></member>
+      <member refid="classdst__sch_1ada6ed737e122df414988b05dbdb5bffb" prot="public" virt="non-virtual"><scope>dst_sch</scope><name>~dst_sch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

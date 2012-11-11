@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<block>
+  <name>fcch_broken_do_not_use</name>
+  <key>dst_fcch</key>
+  <category>dst</category>
+  <import>import dst</import>
+  <make>dst.fcch($rho, $G, $D, $taps)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+    <callback>set_rho($rho)</callback>
+    <callback>set_G($G)</callback>
+    <callback>set_D($D)</callback>
+    <callback>set_taps($taps)</callback>
+
+  <param>
+    <name>Forgetting factor</name>
+    <key>rho</key>
+    <value>0.01325</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Convergence factor</name>
+    <key>G</key>
+    <value>0.08</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Delay</name>
+    <key>D</key>
+    <value>5</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Filter taps</name>
+    <key>taps</key>
+    <value>17</value>
+    <type>int</type>
+  </param>
+
+
+  <check>$rho > 0</check>
+  <check>$G > 0</check>
+  <check>$D >= 1</check>
+ <check>$taps >= 1</check>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

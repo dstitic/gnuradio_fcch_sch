@@ -1,0 +1,16 @@
+/usr/local/include/dst/dst_api.h
+/usr/local/include/dst/dst_fcch.h
+/usr/local/include/dst/dst_fcchsync.h
+/usr/local/include/dst/dst_sch.h
+/usr/local/lib/libgnuradio-dst.so
+/usr/local/lib/python2.7/dist-packages/dst/_dst_swig.so
+/usr/local/lib/python2.7/dist-packages/dst/dst_swig.py
+/usr/local/lib/python2.7/dist-packages/dst/dst_swig.pyc
+/usr/local/lib/python2.7/dist-packages/dst/dst_swig.pyo
+/usr/local/include/dst/swig/dst_swig.i
+/usr/local/include/dst/swig/dst_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/dst/__init__.py
+/usr/local/lib/python2.7/dist-packages/dst/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/dst/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/dst_fcchsync.xml
+/usr/local/share/gnuradio/grc/blocks/dst_sch.xml

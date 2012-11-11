@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<block>
+  <name>fcchsync</name>
+  <key>dst_fcchsync</key>
+  <category>dst</category>
+  <import>import dst</import>
+  <make>dst.fcchsync($rho, $G, $D, $taps, $osr, $fsamp)</make>
+<!--  <make>dst.fcchsync($rho, $G, $D, $taps)</make>-->
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+    <callback>set_rho($rho)</callback>
+    <callback>set_G($G)</callback>
+    <callback>set_D($D)</callback>
+    <callback>set_taps($taps)</callback>
+    <callback>set_osr($osr)</callback>
+    <callback>set_fsamp($fsamp)</callback>
+
+
+  <param>
+    <name>Sample rate</name>
+    <key>fsamp</key>
+    <value>1083333</value>
+    <type>int</type>
+  </param>
+
+
+  <param>
+    <name>Oversampling rate</name>
+    <key>osr</key>
+    <value>4</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Forgetting factor</name>
+    <key>rho</key>
+    <value>0.01325</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Convergence factor</name>
+    <key>G</key>
+    <value>0.08</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Delay</name>
+    <key>D</key>
+    <value>5</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Filter taps</name>
+    <key>taps</key>
+    <value>17</value>
+    <type>int</type>
+  </param>
+    <!--
+    <param>
+
+    <name>Offset smoothing</name>
+    <key>mid</key>
+    <value>3</value>
+    <type>int</type>
+    <check>$mid >= 0</check>
+    </param>
+
+    -->
+  <check>$rho > 0</check>
+  <check>$G > 0</check>
+  <check>$D >= 1</check>
+  <check>$taps >= 1</check>
+  <check>$fsamp >= 1</check>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+
+  <source>
+    <name>offset</name>
+    <type>complex</type>
+  </source>
+<doc>
+This blocks performs an fcch detection via ale through fir filter.
+
+*Parameter(standard, if applicable): Description
+
+*Sample rate: The sample rate of the input data. Needs to be close to a multiple of GSM Bitrate / 4, e.g.  67708 Hz * k
+
+*Oversampling rate(4): The rate at which the input signal has been oversampled
+
+*Forgetting Factor(13.25e-3): Sets the at which previous samples influence
+
+*Convervgence Factor(80e-3): Changes FIR convergence rate and stability
+
+*Delay(5)
+
+*Filter taps(17): Number of filter taps, the more the slower
+
+*Offset smoothing; Number of previous calculated frequency offsets a mean is calculated over for the output
+
+The output is the input, but with a stream tag somewhat roughly marking the beginning of the frequency correction burst
+
+Stream tag key is  "fcch_detected", the value is a double value containing the FCCH detector out/average input power
+
+</doc>
+</block>

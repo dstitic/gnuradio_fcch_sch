@@ -1,0 +1,10 @@
+/home/denis/Thesis/gr-dst/swig/CMakeFiles/_dst_swig.dir
+/home/denis/Thesis/gr-dst/swig/CMakeFiles/_dst_swig_doc_tag.dir
+/home/denis/Thesis/gr-dst/swig/CMakeFiles/_dst_swig_swig_tag.dir
+/home/denis/Thesis/gr-dst/lib/CMakeFiles/gnuradio-dst.dir
+/home/denis/Thesis/gr-dst/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/denis/Thesis/gr-dst/python/CMakeFiles/pygen_python_58164.dir
+/home/denis/Thesis/gr-dst/swig/CMakeFiles/pygen_swig_bc6d7.dir
+/home/denis/Thesis/gr-dst/lib/CMakeFiles/qa_dst_fcchsync.dir
+/home/denis/Thesis/gr-dst/lib/CMakeFiles/qa_dst_sch.dir
+/home/denis/Thesis/gr-dst/CMakeFiles/uninstall.dir

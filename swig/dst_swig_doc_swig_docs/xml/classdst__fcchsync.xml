@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classdst__fcchsync" kind="class" prot="public">
+    <compoundname>dst_fcchsync</compoundname>
+    <includes refid="dst__fcchsync_8h" local="no">dst_fcchsync.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdst__fcchsync_1af566cb515ba6158675ad024116fb8482" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double dst_fcchsync::d_rho</definition>
+        <argsstring></argsstring>
+        <name>d_rho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="44" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a3ccd6a5057e7e2d2ff3eceb196389343" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double dst_fcchsync::d_G</definition>
+        <argsstring></argsstring>
+        <name>d_G</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="45" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1afff0e443dffdaf74f99e09d55d140b4c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_fcchsync::d_D</definition>
+        <argsstring></argsstring>
+        <name>d_D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="46" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a5b4da95d79767d461ac8274f87ebe93b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_fcchsync::d_taps</definition>
+        <argsstring></argsstring>
+        <name>d_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="47" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1ab2277ba4c86ca423785c941f4eaaa535" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_fcchsync::d_osr</definition>
+        <argsstring></argsstring>
+        <name>d_osr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="48" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1adeedf3cb652c03033fc8bb71d68ce90b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_fcchsync::d_fsamp</definition>
+        <argsstring></argsstring>
+        <name>d_fsamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="49" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a018cb8b73b195dc4cab834995eb2ad2d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double dst_fcchsync::freq</definition>
+        <argsstring></argsstring>
+        <name>freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="50" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a0c0e180231d69d5e8f4c6ea63a06be6c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; dst_fcchsync::taps_buffer</definition>
+        <argsstring></argsstring>
+        <name>taps_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="51" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a54d7983b359df994bdcf571eda34717d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; dst_fcchsync::eavg_buffer</definition>
+        <argsstring></argsstring>
+        <name>eavg_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="52" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a3fc8d217f161b2e71eb9277c2af576df" prot="private" static="no" mutable="no">
+        <type>std::list&lt; double &gt;</type>
+        <definition>std::list&lt;double&gt; dst_fcchsync::mea_list</definition>
+        <argsstring></argsstring>
+        <name>mea_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="54" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a8299825e36209fcecaaabf420159f1d0" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex dst_fcchsync::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="56" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1ae66adb38ad7520e516324c41d2440eeb" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex dst_fcchsync::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="57" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1aa11633a1d8fb1ab922fd5127791c259a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_fcchsync::detectedago</definition>
+        <argsstring></argsstring>
+        <name>detectedago</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="58" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1a6feb7b6a3dec0c6457f941eb25276333" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dst_fcchsync::detectedcounter</definition>
+        <argsstring></argsstring>
+        <name>detectedcounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="58" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdst__fcchsync_1ae9c9487f4cf037cb34a28d0e8a88af60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool dst_fcchsync::firstrun</definition>
+        <argsstring></argsstring>
+        <name>firstrun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="59" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdst__fcchsync_1a0cfa662674cecb59e432e2345eae7d2a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="dst__fcchsync_8h_1a4d8a95b954bf167bf0dace6f66b8e446" kindref="member">dst_fcchsync_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT dst_fcchsync_sptr dst_make_fcchsync</definition>
+        <argsstring>(double rho, double G, int D, int taps, int osr, int fsamp)</argsstring>
+        <name>dst_make_fcchsync</name>
+        <param>
+          <type>double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>G</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>osr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fsamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdst__fcchsync_1a192cf4f8722f2c02fe56d9060cb713da" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dst_fcchsync::dst_fcchsync</definition>
+        <argsstring>(double rho, double G, int D, int taps, int osr, int fsamp)</argsstring>
+        <name>dst_fcchsync</name>
+        <param>
+          <type>double</type>
+          <declname>rho</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>G</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>taps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>osr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fsamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdst__fcchsync_1a1eab716ef25222504bab19da7cfeec8a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double dst_fcchsync::rho</definition>
+        <argsstring>() const </argsstring>
+        <name>rho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="65" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a103303f82ed9920f2a60ad18f81d5783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_fcchsync::set_osr</definition>
+        <argsstring>(int osr)</argsstring>
+        <name>set_osr</name>
+        <param>
+          <type>int</type>
+          <declname>osr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="70" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a2fed0fa1073bb8e2fb9e576feab0cb16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_fcchsync::set_rho</definition>
+        <argsstring>(double rho)</argsstring>
+        <name>set_rho</name>
+        <param>
+          <type>double</type>
+          <declname>rho</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="74" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a23d315989c21a9b06bd50e4a06f06a4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double dst_fcchsync::G</definition>
+        <argsstring>() const </argsstring>
+        <name>G</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="79" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1ae9e16e7e1812de213b582a07b0b1e8f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_fcchsync::set_G</definition>
+        <argsstring>(double G)</argsstring>
+        <name>set_G</name>
+        <param>
+          <type>double</type>
+          <declname>G</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="83" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1abe1e66c5e6e078a0302f4d46b064b77a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dst_fcchsync::D</definition>
+        <argsstring>() const </argsstring>
+        <name>D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="88" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a326567a935aacb7d01b85b407d71e679" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dst_fcchsync::fsamp</definition>
+        <argsstring>() const </argsstring>
+        <name>fsamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="93" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a140d2c5385eb326b5ffbebf947fe7ee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_fcchsync::set_D</definition>
+        <argsstring>(double D)</argsstring>
+        <name>set_D</name>
+        <param>
+          <type>double</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="97" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a7b00b3fe24c008a2aa3f899cbd5f94a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dst_fcchsync::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="102" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a84ac54183df2737fea0a55e461374377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_fcchsync::set_taps</definition>
+        <argsstring>(double taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>double</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="106" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a937696b88398a2b57e0acdaf2f9c5fc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dst_fcchsync::calculate_fcch_firale</definition>
+        <argsstring>(int noutput_items, const gr_complex input_buffer[], gr_complex out_buffer[], gr_complex *offset, std::vector&lt; gr_complex &gt; taps_buffer, std::vector&lt; double &gt; eavg_buffer, double alpha, double d_rho, double d_G, int d_D, int d_taps)</argsstring>
+        <name>calculate_fcch_firale</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>const gr_complex</type>
+          <declname>input_buffer</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>gr_complex</type>
+          <declname>out_buffer</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; gr_complex &gt;</type>
+          <declname>taps_buffer</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>eavg_buffer</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d_rho</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d_G</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d_D</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d_taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a8f7107c056cba907502d14528f0fee80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dst_fcchsync::~dst_fcchsync</definition>
+        <argsstring>()</argsstring>
+        <name>~dst_fcchsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__fcchsync_1a6eeb1fe4ed97fe4f8dce1eb96a7538da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dst_fcchsync::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Calculates the Freqency offset of a GSM system by searching the FCCH &lt;+description+&gt; </para>    </detaileddescription>
+    <location file="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" line="41" bodyfile="/home/denis/Thesis/gr-dst/include/dst_fcchsync.h" bodystart="40" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classdst__fcchsync_1a937696b88398a2b57e0acdaf2f9c5fc8" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>calculate_fcch_firale</name></member>
+      <member refid="classdst__fcchsync_1abe1e66c5e6e078a0302f4d46b064b77a" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>D</name></member>
+      <member refid="classdst__fcchsync_1afff0e443dffdaf74f99e09d55d140b4c" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>d_D</name></member>
+      <member refid="classdst__fcchsync_1adeedf3cb652c03033fc8bb71d68ce90b" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>d_fsamp</name></member>
+      <member refid="classdst__fcchsync_1a3ccd6a5057e7e2d2ff3eceb196389343" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>d_G</name></member>
+      <member refid="classdst__fcchsync_1ab2277ba4c86ca423785c941f4eaaa535" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>d_osr</name></member>
+      <member refid="classdst__fcchsync_1af566cb515ba6158675ad024116fb8482" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>d_rho</name></member>
+      <member refid="classdst__fcchsync_1a5b4da95d79767d461ac8274f87ebe93b" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>d_taps</name></member>
+      <member refid="classdst__fcchsync_1aa11633a1d8fb1ab922fd5127791c259a" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>detectedago</name></member>
+      <member refid="classdst__fcchsync_1a6feb7b6a3dec0c6457f941eb25276333" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>detectedcounter</name></member>
+      <member refid="classdst__fcchsync_1a192cf4f8722f2c02fe56d9060cb713da" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>dst_fcchsync</name></member>
+      <member refid="classdst__fcchsync_1a0cfa662674cecb59e432e2345eae7d2a" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>dst_make_fcchsync</name></member>
+      <member refid="classdst__fcchsync_1ae66adb38ad7520e516324c41d2440eeb" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>e</name></member>
+      <member refid="classdst__fcchsync_1a54d7983b359df994bdcf571eda34717d" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>eavg_buffer</name></member>
+      <member refid="classdst__fcchsync_1ae9c9487f4cf037cb34a28d0e8a88af60" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>firstrun</name></member>
+      <member refid="classdst__fcchsync_1a018cb8b73b195dc4cab834995eb2ad2d" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>freq</name></member>
+      <member refid="classdst__fcchsync_1a326567a935aacb7d01b85b407d71e679" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>fsamp</name></member>
+      <member refid="classdst__fcchsync_1a23d315989c21a9b06bd50e4a06f06a4e" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>G</name></member>
+      <member refid="classdst__fcchsync_1a3fc8d217f161b2e71eb9277c2af576df" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>mea_list</name></member>
+      <member refid="classdst__fcchsync_1a1eab716ef25222504bab19da7cfeec8a" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>rho</name></member>
+      <member refid="classdst__fcchsync_1a140d2c5385eb326b5ffbebf947fe7ee1" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>set_D</name></member>
+      <member refid="classdst__fcchsync_1ae9e16e7e1812de213b582a07b0b1e8f7" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>set_G</name></member>
+      <member refid="classdst__fcchsync_1a103303f82ed9920f2a60ad18f81d5783" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>set_osr</name></member>
+      <member refid="classdst__fcchsync_1a2fed0fa1073bb8e2fb9e576feab0cb16" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>set_rho</name></member>
+      <member refid="classdst__fcchsync_1a84ac54183df2737fea0a55e461374377" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>set_taps</name></member>
+      <member refid="classdst__fcchsync_1a7b00b3fe24c008a2aa3f899cbd5f94a2" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>taps</name></member>
+      <member refid="classdst__fcchsync_1a0c0e180231d69d5e8f4c6ea63a06be6c" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>taps_buffer</name></member>
+      <member refid="classdst__fcchsync_1a6eeb1fe4ed97fe4f8dce1eb96a7538da" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>work</name></member>
+      <member refid="classdst__fcchsync_1a8299825e36209fcecaaabf420159f1d0" prot="private" virt="non-virtual"><scope>dst_fcchsync</scope><name>y</name></member>
+      <member refid="classdst__fcchsync_1a8f7107c056cba907502d14528f0fee80" prot="public" virt="non-virtual"><scope>dst_fcchsync</scope><name>~dst_fcchsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

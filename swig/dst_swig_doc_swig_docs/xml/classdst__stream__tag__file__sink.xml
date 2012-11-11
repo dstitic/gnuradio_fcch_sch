@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classdst__stream__tag__file__sink" kind="class" prot="public">
+    <compoundname>dst_stream_tag_file_sink</compoundname>
+    <includes refid="dst__stream__tag__file__sink_8h" local="no">dst_stream_tag_file_sink.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdst__stream__tag__file__sink_1a05d3357b54aeb1ab7bc4dcffdb9a5a1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="dst__stream__tag__file__sink_8h_1aeea891bbaf5deb936803a683cadb312c" kindref="member">dst_stream_tag_file_sink_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT dst_stream_tag_file_sink_sptr dst_make_stream_tag_file_sink</definition>
+        <argsstring>(char *filename)</argsstring>
+        <name>dst_make_stream_tag_file_sink</name>
+        <param>
+          <type>char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_stream_tag_file_sink.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdst__stream__tag__file__sink_1af5cc1641f363277f0003617c4f1a4460" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dst_stream_tag_file_sink::dst_stream_tag_file_sink</definition>
+        <argsstring>(char *filename)</argsstring>
+        <name>dst_stream_tag_file_sink</name>
+        <param>
+          <type>char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_stream_tag_file_sink.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdst__stream__tag__file__sink_1a199ceddfa885b99830225f5bab4ec71c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dst_stream_tag_file_sink::~dst_stream_tag_file_sink</definition>
+        <argsstring>()</argsstring>
+        <name>~dst_stream_tag_file_sink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_stream_tag_file_sink.h" line="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classdst__stream__tag__file__sink_1a4c7eb2314e5d795dc8edfca4291bf4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dst_stream_tag_file_sink::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/denis/Thesis/gr-dst/include/dst_stream_tag_file_sink.h" line="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/denis/Thesis/gr-dst/include/dst_stream_tag_file_sink.h" line="37" bodyfile="/home/denis/Thesis/gr-dst/include/dst_stream_tag_file_sink.h" bodystart="36" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classdst__stream__tag__file__sink_1a05d3357b54aeb1ab7bc4dcffdb9a5a1d" prot="private" virt="non-virtual"><scope>dst_stream_tag_file_sink</scope><name>dst_make_stream_tag_file_sink</name></member>
+      <member refid="classdst__stream__tag__file__sink_1af5cc1641f363277f0003617c4f1a4460" prot="private" virt="non-virtual"><scope>dst_stream_tag_file_sink</scope><name>dst_stream_tag_file_sink</name></member>
+      <member refid="classdst__stream__tag__file__sink_1a4c7eb2314e5d795dc8edfca4291bf4bd" prot="public" virt="non-virtual"><scope>dst_stream_tag_file_sink</scope><name>work</name></member>
+      <member refid="classdst__stream__tag__file__sink_1a199ceddfa885b99830225f5bab4ec71c" prot="public" virt="non-virtual"><scope>dst_stream_tag_file_sink</scope><name>~dst_stream_tag_file_sink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

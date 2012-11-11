@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gr-dst" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files/;CMake Files/cmake/;CMake Files/cmake/Modules/;CMake Files/include/;CMake Files/lib/;CMake Files/swig/;CMake Files/docs/;CMake Files/docs/doxygen/;CMake Files/python/;CMake Files/grc/;CMake Files/apps/;" />
+		<Build>
+			<Target title="all">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 install' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 install/local' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 install/strip' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 list_install_components' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 rebuild_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 test' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 uninstall' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="gnuradio-dst">
+				<Option output="/home/denis/Thesis/gr-dst/lib/libgnuradio-dst.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/lib" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK" />
+					<Add option="-DBOOST_TEST_MAIN" />
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 gnuradio-dst' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="gnuradio-dst/fast">
+				<Option output="/home/denis/Thesis/gr-dst/lib/libgnuradio-dst.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/lib" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK" />
+					<Add option="-DBOOST_TEST_MAIN" />
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 gnuradio-dst/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="qa_dst_fcchsync">
+				<Option output="/home/denis/Thesis/gr-dst/lib/qa_dst_fcchsync" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/lib" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK" />
+					<Add option="-DBOOST_TEST_MAIN" />
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 qa_dst_fcchsync' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="qa_dst_fcchsync/fast">
+				<Option output="/home/denis/Thesis/gr-dst/lib/qa_dst_fcchsync" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/lib" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK" />
+					<Add option="-DBOOST_TEST_MAIN" />
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 qa_dst_fcchsync/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="qa_dst_sch">
+				<Option output="/home/denis/Thesis/gr-dst/lib/qa_dst_sch" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/lib" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK" />
+					<Add option="-DBOOST_TEST_MAIN" />
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 qa_dst_sch' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="qa_dst_sch/fast">
+				<Option output="/home/denis/Thesis/gr-dst/lib/qa_dst_sch" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/lib" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK" />
+					<Add option="-DBOOST_TEST_MAIN" />
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 qa_dst_sch/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/lib/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="_dst_swig">
+				<Option output="/home/denis/Thesis/gr-dst/swig/_dst_swig.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/swig" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/home/denis/Thesis/gr-dst/swig" />
+					<Add directory="/usr/include/python2.7" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+					<Add directory="/usr/local/include/gnuradio/swig" />
+					<Add directory="/usr/local/include/gruel/swig" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 _dst_swig' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="_dst_swig/fast">
+				<Option output="/home/denis/Thesis/gr-dst/swig/_dst_swig.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/swig" />
+				<Option object_output="./" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/home/denis/Thesis/gr-dst/swig" />
+					<Add directory="/usr/include/python2.7" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+					<Add directory="/usr/local/include/gnuradio/swig" />
+					<Add directory="/usr/local/include/gruel/swig" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 _dst_swig/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="_dst_swig_doc_tag">
+				<Option output="/home/denis/Thesis/gr-dst/swig/_dst_swig_doc_tag" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/swig" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/home/denis/Thesis/gr-dst/swig" />
+					<Add directory="/usr/include/python2.7" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+					<Add directory="/usr/local/include/gnuradio/swig" />
+					<Add directory="/usr/local/include/gruel/swig" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 _dst_swig_doc_tag' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="_dst_swig_doc_tag/fast">
+				<Option output="/home/denis/Thesis/gr-dst/swig/_dst_swig_doc_tag" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/swig" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/home/denis/Thesis/gr-dst/swig" />
+					<Add directory="/usr/include/python2.7" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+					<Add directory="/usr/local/include/gnuradio/swig" />
+					<Add directory="/usr/local/include/gruel/swig" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 _dst_swig_doc_tag/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="_dst_swig_swig_tag">
+				<Option output="/home/denis/Thesis/gr-dst/swig/_dst_swig_swig_tag" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/swig" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/home/denis/Thesis/gr-dst/swig" />
+					<Add directory="/usr/include/python2.7" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+					<Add directory="/usr/local/include/gnuradio/swig" />
+					<Add directory="/usr/local/include/gruel/swig" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 _dst_swig_swig_tag' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="_dst_swig_swig_tag/fast">
+				<Option output="/home/denis/Thesis/gr-dst/swig/_dst_swig_swig_tag" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/denis/Thesis/gr-dst/swig" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="/home/denis/Thesis/gr-dst/include" />
+					<Add directory="/home/denis/Thesis/gr-dst/swig" />
+					<Add directory="/usr/include/python2.7" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/gnuradio" />
+					<Add directory="/usr/local/include/gnuradio/swig" />
+					<Add directory="/usr/local/include/gruel/swig" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 _dst_swig_swig_tag/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_swig_bc6d7">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 pygen_swig_bc6d7' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/swig/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_python_58164">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/python/Makefile&quot;  VERBOSE=1 pygen_python_58164' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/python/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/python/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_apps_9a6dd">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/apps/Makefile&quot;  VERBOSE=1 pygen_apps_9a6dd' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/apps/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/denis/Thesis/gr-dst/apps/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -s -f $makefile $target" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Unit filename="apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/apps/" />
+		</Unit>
+		<Unit filename="cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/FindGnuradioCore.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/FindGruel.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/GrMiscUtils.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/GrPlatform.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/GrSwig.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/Modules/GrTest.cmake">
+			<Option virtualFolder="CMake Files/cmake/Modules/" />
+		</Unit>
+		<Unit filename="cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files/cmake/" />
+		</Unit>
+		<Unit filename="docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/docs/" />
+		</Unit>
+		<Unit filename="docs/doxygen/Doxyfile.swig_doc.in">
+			<Option virtualFolder="CMake Files/docs/doxygen/" />
+		</Unit>
+		<Unit filename="grc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/grc/" />
+		</Unit>
+		<Unit filename="grc/dst_fcchsync.xml" />
+		<Unit filename="grc/dst_sch.xml" />
+		<Unit filename="include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/include/" />
+		</Unit>
+		<Unit filename="include/dst_fcchsync.h" />
+		<Unit filename="include/dst_sch.h" />
+		<Unit filename="lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/lib/" />
+		</Unit>
+		<Unit filename="lib/dst_fcchsync.cc" />
+		<Unit filename="lib/dst_sch.cc" />
+		<Unit filename="lib/qa_dst_fcchsync.cc" />
+		<Unit filename="lib/qa_dst_sch.cc" />
+		<Unit filename="python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/python/" />
+		</Unit>
+		<Unit filename="swig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files/swig/" />
+		</Unit>
+		<Unit filename="swig/_dst_swig_doc_tag.cpp" />
+		<Unit filename="swig/_dst_swig_swig_tag.cpp" />
+		<Unit filename="swig/dst_swig.i" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

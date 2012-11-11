@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_6fb3c936c8e64c91ee6df6686f15ff99" kind="dir">
+    <compoundname>/home/denis/Thesis/gr-dst/include/</compoundname>
+    <innerfile refid="dst__api_8h">dst_api.h</innerfile>
+    <innerfile refid="dst__fcch_8h">dst_fcch.h</innerfile>
+    <innerfile refid="dst__fcchsync_8h">dst_fcchsync.h</innerfile>
+    <innerfile refid="dst__sch_8h">dst_sch.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/denis/Thesis/gr-dst/include/"/>
+  </compounddef>
+</doxygen>
